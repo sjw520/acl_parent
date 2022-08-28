@@ -12,8 +12,6 @@ import org.springframework.web.util.pattern.PathPatternParser;
 @Configuration
 public class CorsConfig {
 
-
-
     //解决跨域
     @Bean
     public CorsWebFilter corsWebFilter(){
